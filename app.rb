@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  get "/bowling alley" do
+  get "/" do
     erb :index
 
 end
